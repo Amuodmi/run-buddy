@@ -166,8 +166,24 @@ section {
   flex: 1 30%;
 }
 
-. .step-info {
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
+.step-info {
   flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.step-text {
+  flex: 12;
 }
 
 .step-text p {
@@ -182,9 +198,6 @@ section {
 }
 
 /*Trainers Bio Start*/
-
-.trainers {
-}
 
 .trainer {
   width: 900px;
